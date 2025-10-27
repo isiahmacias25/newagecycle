@@ -77,11 +77,32 @@ header h1 {
 }
 
 .main-footer h2 {
-   color: #c0c0c0;
+   color: #ffffff;
 }
 
-.footerNav {
-   text-decoration: none;
+.footerNav a {
+  display: block;             /* each link on its own line */
+  color: #ffffff;             /* your accent color */
+  text-decoration: none;      /* remove underline */
+  margin: 0.3rem 0;           /* spacing between links */
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.right-footer a {
+  color: #ffffff;           /* your accent orange */
+  text-decoration: none;     /* remove underline */
+  transition: color 0.3s;
+}
+
+.left-footer p,
+.center-footer a,
+.center-footer p,
+.right-footer p,
+.right-footer a {
+  margin: 0.3rem 0;   /* space between lines */
+  line-height: 1.5;   /* optional: slightly taller line spacing */
 }
 
 .bottom-footer {
@@ -89,4 +110,10 @@ header h1 {
    color: #fff;
    padding: 20px;
    text-align: center;
+}
+
+.bottom-footer a {
+  color: #ffffff;           /* your accent orange */
+  text-decoration: none;     /* remove underline */
+  transition: color 0.3s;
 }
