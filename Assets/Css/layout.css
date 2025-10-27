@@ -46,7 +46,7 @@ header h1 {
   transition: color 0.3s ease;
 }
 
-.mainNav active {
+.navActive {
   color: white;
   text-shadow: 0 0 5px #ff8800;
 }
