@@ -4,21 +4,32 @@
    padding: 0;
 }
 
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
 /* Header Styles: */
 header {
-   background: rgba(54, 54, 54);
+   background: rgba(54, 54, 54, 1);
+   color: #fff;
+   display:flex;
 }
 
 /* Main Styles */
 .main {
-background rgba(196, 175, 175);
+   background: rgba(196, 175, 175, 1);
+   flex: 1;
 }
 
 /* Footer Styles: */
 .main-footer {
-   background: rgba(54, 54, 54);
+   background: rgba(54, 54, 54, 1);
+   color: #fff;
 }
 
 .bottom-footer {
-   background: rgba(54, 54, 54);
+   background: rgba(54, 54, 54, 1);
+   color: #fff;
 }
