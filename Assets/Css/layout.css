@@ -46,6 +46,11 @@ header h1 {
   transition: color 0.3s ease;
 }
 
+.mainNav active {
+  color: white;
+  text-shadow: 0 0 5px #ff8800;
+}
+
 .mainNav a:hover {
   color: #ffffff;
 }
