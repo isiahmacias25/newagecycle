@@ -80,9 +80,13 @@ header h1 {
    color: #c0c0c0;
 }
 
+.footerNav {
+   text-decoration: none;
+}
+
 .bottom-footer {
    background: rgba(54, 54, 54, 1);
    color: #fff;
    padding: 20px;
-   
+   text-align: center;
 }
