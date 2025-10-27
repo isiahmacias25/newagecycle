@@ -1,0 +1,18 @@
+/* Header Styles: */
+header {
+   background: rgba(54, 54, 54);
+}
+
+/* Main Styles */
+.main {
+background rgba(196, 175, 175);
+}
+
+/* Footer Styles: */
+.main-footer {
+   background: rgba(54, 54, 54);
+}
+
+.bottom-footer {
+   background: rgba(54, 54, 54);
+}
