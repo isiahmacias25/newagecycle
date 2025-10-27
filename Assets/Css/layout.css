@@ -29,15 +29,15 @@ header h1 {
    color: #ff7202;
 }
 
-.mainNav {
+.headerNav {
   display: flex;
   justify-content: center;
-  gap: 2rem; /* space between links */
+  gap: 2rem;
   background: rgba(54, 54, 54, 1);
   padding: 0.75rem 0;
 }
 
-.mainNav a {
+.headerNav a {
   font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
   color: #ff6600;
@@ -52,7 +52,7 @@ header h1 {
   text-shadow: 0 0 5px #ff8800;
 }
 
-.mainNav a:hover {
+.headerNav a:hover {
   color: #ffffff;
 }
 
@@ -84,18 +84,18 @@ header h1 {
 }
 
 .footerNav a {
-  display: block;             /* each link on its own line */
-  color: #ffffff;             /* your accent color */
-  text-decoration: none;      /* remove underline */
-  margin: 0.3rem 0;           /* spacing between links */
+  display: block;             
+  color: #ffffff;            
+  text-decoration: none;      
+  margin: 0.3rem 0;          
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
 .right-footer a {
-  color: #ffffff;           /* your accent orange */
-  text-decoration: none;     /* remove underline */
+  color: #ffffff;          
+  text-decoration: none;    
   transition: color 0.3s;
 }
 
@@ -104,8 +104,8 @@ header h1 {
 .center-footer p,
 .right-footer p,
 .right-footer a {
-  margin: 0.3rem 0;   /* space between lines */
-  line-height: 1.5;   /* optional: slightly taller line spacing */
+  margin: 0.3rem 0;  
+  line-height: 1.5;   
 }
 
 .bottom-footer {
@@ -116,7 +116,7 @@ header h1 {
 }
 
 .bottom-footer a {
-  color: #ffffff;           /* your accent orange */
-  text-decoration: none;     /* remove underline */
+  color: #ffffff;           
+  text-decoration: none;     
   transition: color 0.3s;
 }
