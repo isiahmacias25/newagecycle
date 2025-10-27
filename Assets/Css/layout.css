@@ -68,14 +68,21 @@ header h1 {
    background: rgba(54, 54, 54, 1);
    color: #fff;
    padding: 20px;
+   display: flex;
+   justify-content: space-between;
 }
 
 .main-footer h1 {
    color: #ff7202;
 }
 
+.main-footer h2 {
+   color: #c0c0c0;
+}
+
 .bottom-footer {
    background: rgba(54, 54, 54, 1);
    color: #fff;
    padding: 20px;
+   
 }
